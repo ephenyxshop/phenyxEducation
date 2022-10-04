@@ -1,5 +1,5 @@
 {
-    "name": "ephenyxshop/phenyxeducation",
+    "name": "ephenyxshop/phenyxshop",
     "description": "Ephenyx Shop Code source",
     "homepage": "http://dev.maxmind.com/geoip/legacy/downloadable",
     "type": "library",
@@ -12,12 +12,9 @@
         }
     ],
     "require": {
-        "php": ">=7.4"
+        "php": ">=8"
     },
      "autoload": {
-        "psr-4": {
-            "EphenyxShop\\PhenyxEducation\\": "lib/Adapter",
-            "EphenyxShop\\PhenyxEducation\\": "lib/Core"
-        }
+        "files": ["library/phenyx.composer.php"]
     }
 }
